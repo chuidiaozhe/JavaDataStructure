@@ -1,7 +1,5 @@
 package LinkeList;
 
-import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
-
 public class TestSingleLinke {
     public static void main(String[] args){
         SingleLinkeList singleLinkeList = new SingleLinkeList();
@@ -34,6 +32,13 @@ public class TestSingleLinke {
         singleLinkeList.update(node6);
 
         singleLinkeList.list();
+
+        singleLinkeList.reverseHead();
+        System.out.println();
+        System.out.println("反转后的数据");
+        singleLinkeList.list();
+
+
         System.out.println("倒数第3个值：" + singleLinkeList.findLastIndexNode(3).getName());
         System.out.println("倒数第2个值：" + singleLinkeList.findLastIndexNode(2).getName());
         System.out.println("倒数第5个值：" + singleLinkeList.findLastIndexNode(5).getName());
@@ -42,7 +47,6 @@ public class TestSingleLinke {
         if(heroNode == null){
             System.out.println("倒数第8个值：" + "空值");
         }
-
 
         System.out.println("长度：" + singleLinkeList.getLength());
 

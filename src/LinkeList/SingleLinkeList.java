@@ -1,5 +1,7 @@
 package LinkeList;
 
+import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
+
 public class SingleLinkeList {
     private HeroNode mHead;
 
@@ -103,6 +105,23 @@ public class SingleLinkeList {
            System.out.println("删除的节点不存在");
        }
 
+    }
+
+
+    public void reverseHead(){
+        if(mHead.getNext() == null || mHead.getNext().getNext() == null){
+            return;
+        }
+        HeroNode cur = mHead.getNext();
+        HeroNode next;
+        HeroNode reverseHead = new HeroNode(0,"","");
+        while (cur != null){
+            next = cur.getNext(); //先暂时保存当前节点的下一个节点
+            cur.setNext(reverseHead.getNext()); //将cur的下一个节点指向新的链表的最前端
+            reverseHead.setNext(cur); //将cur添加到新链表上
+            cur = next;//让cur后移
+         }
+        mHead.setNext(reverseHead.getNext());
     }
 
 
