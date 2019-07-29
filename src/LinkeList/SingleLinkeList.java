@@ -1,10 +1,18 @@
 package LinkeList;
 
 import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
+import org.w3c.dom.ls.LSException;
+
+import java.util.Currency;
+import java.util.Stack;
 
 public class SingleLinkeList {
     private HeroNode mHead;
 
+
+    public HeroNode getmHead() {
+        return mHead;
+    }
 
     public SingleLinkeList() {
         mHead = new HeroNode(0, "", "");
@@ -41,6 +49,52 @@ public class SingleLinkeList {
         temp.setNext(node);
 
     }
+
+    /**
+     * 将一个列表添加到此列表的后面
+     */
+    public void addAllList(SingleLinkeList linkeList){
+        if(linkeList.getLength() == 0){
+            //如果被添加的链表为空，则不做任何操作
+            return;
+        }
+        HeroNode currentNode = mHead;
+        while (currentNode.getNext() != null){
+            currentNode = currentNode.getNext();
+        }
+        currentNode.setNext(linkeList.getmHead().getNext());
+    }
+
+    /**
+     * 将两个有序到队列按有序到顺序拼接到一起
+     * */
+//    public SingleLinkeList addByOrderList(SingleLinkeList linkeList){
+//           SingleLinkeList singleLinkeList = new SingleLinkeList();
+//
+//           HeroNode currentNode = mHead.getNext();
+//           HeroNode nextCurrentNode ;
+//           HeroNode otherNode = linkeList.getmHead().getNext();
+//           HeroNode nextOtherNode ;
+//           while (currentNode.getNext() != null ||   otherNode.getNext() != null){
+//
+//                nextCurrentNode = currentNode.getNext();
+//                nextOtherNode = otherNode.getNext();
+//                if(currentNode == null || otherNode == null){
+//                    break;
+//                }
+//               if(currentNode.getId() < currentNode.getId()){
+//                   currentNode.setNext(null);
+//                  singleLinkeList.add(currentNode);
+//                  currentNode = nextCurrentNode;
+//              }else{
+//                   otherNode.setNext(null);
+//                   singleLinkeList.add(otherNode);
+//                   otherNode = nextOtherNode;
+//               }
+//           }
+//
+//           return  singleLinkeList;
+//    }
 
     /**
      * 根据heronode的no来修改数据
@@ -108,6 +162,9 @@ public class SingleLinkeList {
     }
 
 
+    /**
+     * 反转数据列表
+     * */
     public void reverseHead(){
         if(mHead.getNext() == null || mHead.getNext().getNext() == null){
             return;
@@ -121,8 +178,37 @@ public class SingleLinkeList {
             reverseHead.setNext(cur); //将cur添加到新链表上
             cur = next;//让cur后移
          }
+
         mHead.setNext(reverseHead.getNext());
     }
+
+    /**
+     * 逆序打印
+     * 说明：可以利用栈这个数据结构，将各个节点压入栈中，然后利用栈的先进后出的特点
+     * */
+    public void reversePrint(){
+      if(mHead.getNext() == null ){
+          //空的列表不做任何操作
+          return;
+      }
+        Stack<HeroNode> stack = new Stack<>();
+
+      //首先将数据压入栈中
+      HeroNode currentNode = mHead;
+      while (currentNode.getNext() != null){
+          stack.push(currentNode.getNext());
+          currentNode = currentNode.getNext();
+      }
+      //出栈打印数据
+       while (!stack.isEmpty()){
+           HeroNode temp = stack.pop();
+           System.out.println(temp);
+       }
+
+    }
+
+
+
 
 
     /***
