@@ -1,9 +1,5 @@
 package LinkeList;
 
-import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
-import org.w3c.dom.ls.LSException;
-
-import java.util.Currency;
 import java.util.Stack;
 
 public class SingleLinkeList {
