@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fc1a7a2-4cfa-412c-bd01-541b4f490be8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/stack/ArrayStackDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack/ILinkStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack/LinkStackDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/CalculatorDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stack/ArrayStackDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack/ArrayStackDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,13 +14,39 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/stack/ArrayStackDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="855">
+              <caret line="90" column="1" selection-start-line="32" selection-end-line="90" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/stack/CalculatorDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1059#1060#0" expanded="true" />
+                <element signature="e#1092#1093#0" expanded="true" />
+                <element signature="e#1680#1681#0" expanded="true" />
+                <element signature="e#1752#1753#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -52,9 +77,10 @@
         <option value="$PROJECT_DIR$/src/LinkeList/Boy.java" />
         <option value="$PROJECT_DIR$/src/LinkeList/JoephuList.java" />
         <option value="$PROJECT_DIR$/src/LinkeList/TestJoephuList.java" />
-        <option value="$PROJECT_DIR$/src/stack/ArrayStackDemo.java" />
         <option value="$PROJECT_DIR$/src/stack/ILinkStack.java" />
         <option value="$PROJECT_DIR$/src/stack/LinkStackDemo.java" />
+        <option value="$PROJECT_DIR$/src/stack/ArrayStackDemo.java" />
+        <option value="$PROJECT_DIR$/src/stack/CalculatorDemo.java" />
       </list>
     </option>
   </component>
@@ -102,20 +128,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="stack" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="JavaDataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="stack" type="462c0819:PsiDirectoryNode" />
-              <item name="ArrayStackDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="JavaDataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="stack" type="462c0819:PsiDirectoryNode" />
-              <item name="LinkStackDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -123,7 +135,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564566722570" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565171502790" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
@@ -138,7 +150,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LinkStackDemo">
+  <component name="RunManager" selected="Application.CalculatorDemo">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -147,6 +159,20 @@
     </configuration>
     <configuration name="ArrayStackDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stack.ArrayStackDemo" />
+      <module name="DataStructure" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.CalculatorDemo" />
       <module name="DataStructure" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -201,20 +227,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkeList.TestStack" />
-      <module name="DataStructure" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LinkeList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -247,11 +259,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CalculatorDemo" />
         <item itemvalue="Application.LinkStackDemo" />
         <item itemvalue="Application.ArrayStackDemo" />
         <item itemvalue="Application.TestJoephuList" />
         <item itemvalue="Application.TestDoubleLinkeList" />
-        <item itemvalue="Application.TestStack" />
       </list>
     </recent_temporary>
   </component>
@@ -287,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564049265179</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="添加了用数组模拟栈">
+      <created>1565145971027</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1565145971028</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -301,6 +320,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26092136" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -312,14 +332,14 @@
       <window_info id="simpleUML" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3059406" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.26435643" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26435643" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44653466" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.58118814" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32970297" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.4990099" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49960285" weight="0.4990099" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50039715" side_tool="true" weight="0.4990099" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32970297" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -363,7 +383,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始化" />
     <MESSAGE value="添加了单向链表的反转功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加了单向链表的反转功能" />
+    <MESSAGE value="添加了用数组模拟栈" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加了用数组模拟栈" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -412,7 +433,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/stack/ArrayStackDemo.java</url>
-          <line>71</line>
+          <line>66</line>
           <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
@@ -428,8 +449,63 @@
           <properties />
           <option name="timeStamp" value="21" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/stack/CalculatorDemo.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/stack/CalculatorDemo.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/stack/CalculatorDemo.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/stack/CalculatorDemo.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/stack/CalculatorDemo.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/stack/CalculatorDemo.java</url>
+          <line>68</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/stack/CalculatorDemo.java</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/stack/CalculatorDemo.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="(char)operStack.peek()" />
+        <watch expression="operStack.priority(ch)" />
+        <watch expression="operStack.priority((char)operStack.peek())" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/sparearray/SpareArrayTest.java">
@@ -615,16 +691,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/stack/ArrayStackDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/stack/LinkStackDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -633,6 +699,27 @@
             <element signature="imports" expanded="true" />
             <element signature="e#861#862#0" expanded="true" />
             <element signature="e#907#908#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stack/ArrayStackDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="90" column="1" selection-start-line="32" selection-end-line="90" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stack/CalculatorDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1059#1060#0" expanded="true" />
+            <element signature="e#1092#1093#0" expanded="true" />
+            <element signature="e#1680#1681#0" expanded="true" />
+            <element signature="e#1752#1753#0" expanded="true" />
           </folding>
         </state>
       </provider>

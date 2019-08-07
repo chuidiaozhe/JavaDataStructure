@@ -1,10 +1,5 @@
 package stack;
 
-import jdk.nashorn.internal.ir.ThrowNode;
-
-import java.sql.Statement;
-import java.time.temporal.ValueRange;
-
 /**
  * 用数组模拟栈
  * @see {https://www.bilibili.com/video/av54029771/?p=31}
