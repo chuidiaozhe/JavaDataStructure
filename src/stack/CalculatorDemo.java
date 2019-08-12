@@ -54,6 +54,7 @@ public class CalculatorDemo {
                         res =  numStack.cal(num1,num2,oper);
                         //把运算符的结果入数栈
                         numStack.push(res);
+                        //如果符号栈出栈后，当前的操作符的优先级小于或等于符号栈顶的操作符，则继续执行符号出栈计算
                      if( !operStack.isEmpty() && operStack.priority(ch) <= operStack.priority((char)operStack.peek())){
                          continue;
                      }else{
