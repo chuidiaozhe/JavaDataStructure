@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fc1a7a2-4cfa-412c-bd01-541b4f490be8" name="Default Changelist" comment="添加了递归，迷宫游戏">
-      <change afterPath="$PROJECT_DIR$/src/search/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/search/FibonacciSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/search/InsertValueSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/TestSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashtable/HashTabDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/BinaryTreeDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,15 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sort/QuickSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="44" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sort/BubbleSort.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -60,18 +49,55 @@
         <entry file="file://$PROJECT_DIR$/src/search/SeqSearch.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
-              <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/search/FibonacciSearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hashtable/HashTabDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="855">
+              <caret line="166" column="77" selection-start-line="166" selection-start-column="77" selection-end-line="166" selection-end-column="77" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2806#2807#0" expanded="true" />
+                <element signature="e#2838#2839#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/search/FibonacciSearch.java">
+        <entry file="file://$PROJECT_DIR$/src/tree/BinaryTreeDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+            <state relative-caret-position="594">
+              <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#274#275#0" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#351#352#0" expanded="true" />
+                <element signature="e#386#387#0" expanded="true" />
+                <element signature="e#443#444#0" expanded="true" />
+                <element signature="e#483#484#0" expanded="true" />
+                <element signature="e#531#532#0" expanded="true" />
+                <element signature="e#573#574#0" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
+                <element signature="e#469#470#0" expanded="true" />
+                <element signature="e#507#508#0" expanded="true" />
+                <element signature="e#543#544#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,7 +115,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/search/BinarySearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
+            <state relative-caret-position="180">
               <caret line="11" column="23" selection-start-line="11" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -101,7 +127,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/search/InsertValueSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
+            <state relative-caret-position="360">
               <caret line="20" column="63" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
             </state>
           </provider>
@@ -166,6 +192,8 @@
         <option value="$PROJECT_DIR$/src/search/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/search/InsertValueSearch.java" />
         <option value="$PROJECT_DIR$/src/search/FibonacciSearch.java" />
+        <option value="$PROJECT_DIR$/src/hashtable/HashTabDemo.java" />
+        <option value="$PROJECT_DIR$/src/tree/BinaryTreeDemo.java" />
       </list>
     </option>
   </component>
@@ -181,7 +209,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -195,14 +222,21 @@
               <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaDataStructure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568620046888" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568793177965" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
@@ -217,7 +251,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FibonacciSearch">
+  <component name="RunManager" selected="Application.BinaryTreeDemo">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -231,6 +265,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinaryTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.BinaryTreeDemo" />
+      <module name="DataStructure" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -252,6 +300,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HashTabDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashtable.HashTabDemo" />
+      <module name="DataStructure" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hashtable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InsertValueSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="search.InsertValueSearch" />
       <module name="DataStructure" />
@@ -259,34 +321,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="search.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SeqSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="search.SeqSearch" />
-      <module name="DataStructure" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="search.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.TestSort" />
-      <module name="DataStructure" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -326,11 +360,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryTreeDemo" />
+        <item itemvalue="Application.HashTabDemo" />
         <item itemvalue="Application.FibonacciSearch" />
         <item itemvalue="Application.InsertValueSearch" />
         <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.TestSort" />
-        <item itemvalue="Application.SeqSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -395,7 +429,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1080" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12946783" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1302621" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -405,7 +439,7 @@
       <window_info id="simpleUML" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4980143" visible="true" weight="0.25643563" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4980143" weight="0.21485148" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4980143" weight="0.27227724" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -660,6 +694,18 @@
           <line>158</line>
           <properties />
           <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hashtable/HashTabDemo.java</url>
+          <line>136</line>
+          <properties />
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hashtable/HashTabDemo.java</url>
+          <line>130</line>
+          <properties />
+          <option name="timeStamp" value="73" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1035,6 +1081,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/search/SeqSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/search/FibonacciSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sort/InsertSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
@@ -1044,7 +1107,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/search/BinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
+        <state relative-caret-position="180">
           <caret line="11" column="23" selection-start-line="11" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1054,24 +1117,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/search/InsertValueSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
+        <state relative-caret-position="360">
           <caret line="20" column="63" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/search/SeqSearch.java">
+    <entry file="file://$PROJECT_DIR$/src/hashtable/HashTabDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        <state relative-caret-position="855">
+          <caret line="166" column="77" selection-start-line="166" selection-start-column="77" selection-end-line="166" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2806#2807#0" expanded="true" />
+            <element signature="e#2838#2839#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/search/FibonacciSearch.java">
+    <entry file="file://$PROJECT_DIR$/src/tree/BinaryTreeDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+        <state relative-caret-position="594">
+          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
           </folding>
         </state>
       </provider>
