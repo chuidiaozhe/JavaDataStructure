@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fc1a7a2-4cfa-412c-bd01-541b4f490be8" name="Default Changelist" comment="添加了递归，迷宫游戏">
-      <change afterPath="$PROJECT_DIR$/src/algorithm/DijkstraAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/FloydAlgorithm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,7 +26,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithm/DijkstraAlgorithm.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
@@ -43,6 +43,18 @@
                 <element signature="e#2359#2360#0" expanded="true" />
                 <element signature="e#2405#2406#0" expanded="true" />
                 <element signature="e#2437#2438#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/algorithm/FloydAlgorithm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="29" column="70" selection-start-line="29" selection-start-column="70" selection-end-line="29" selection-end-column="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,7 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/LinkeList/SingleLinkeList.java" />
         <option value="$PROJECT_DIR$/src/LinkeList/DoubleHeroNode.java" />
         <option value="$PROJECT_DIR$/src/LinkeList/TestDoubleLinkeList.java" />
         <option value="$PROJECT_DIR$/src/LinkeList/DoubleLinkeList.java" />
@@ -125,6 +136,7 @@
         <option value="$PROJECT_DIR$/src/algorithm/PrimAlgorithm.java" />
         <option value="$PROJECT_DIR$/src/algorithm/KruskalCaseAlgorithm.java" />
         <option value="$PROJECT_DIR$/src/algorithm/DijkstraAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/FloydAlgorithm.java" />
       </list>
     </option>
   </component>
@@ -167,7 +179,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577761189614" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577784236543" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
@@ -182,7 +194,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DijkstraAlgorithm">
+  <component name="RunManager" selected="Application.FloydAlgorithm">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -191,6 +203,20 @@
     </configuration>
     <configuration name="DijkstraAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.DijkstraAlgorithm" />
+      <module name="DataStructure" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FloydAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.FloydAlgorithm" />
       <module name="DataStructure" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -245,20 +271,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.Test" />
-      <module name="DataStructure" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -291,11 +303,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FloydAlgorithm" />
         <item itemvalue="Application.DijkstraAlgorithm" />
         <item itemvalue="Application.KruskalCaseAlgorithm" />
         <item itemvalue="Application.PrimAlgorithm" />
         <item itemvalue="Application.GreedyAlgorithm" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -359,7 +371,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1080" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13979349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -371,8 +382,8 @@
       <window_info id="simpleUML" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4980143" weight="0.3059406" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4980143" visible="true" weight="0.27029702" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4980143" visible="true" weight="0.32673267" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4980143" weight="0.35544553" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49960285" weight="0.58118814" />
@@ -722,13 +733,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Downloads/Java数据结构资料-韩顺平/代码/DataStructures/src/com/atguigu/reversepolishcal/ReversePolishMultiCalc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="20" column="39" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="20" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/stack/ArrayStackDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1062">
@@ -1121,16 +1125,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/GreedyAlgorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1512">
-          <caret line="86" column="13" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/HashSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2682">
@@ -1201,6 +1195,26 @@
             <element signature="e#2359#2360#0" expanded="true" />
             <element signature="e#2405#2406#0" expanded="true" />
             <element signature="e#2437#2438#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/GreedyAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="949">
+          <caret line="86" column="13" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/FloydAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="29" column="70" selection-start-line="29" selection-start-column="70" selection-end-line="29" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
