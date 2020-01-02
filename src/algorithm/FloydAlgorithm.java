@@ -27,9 +27,6 @@ import java.util.Arrays;
 public class FloydAlgorithm {
 
     public static void main(String[] args) {
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("YYYY-MM-dd");
-        System.out.println(simpleDateFormat.format(System.currentTimeMillis()));
-
          // 测试看看图是否创建成功
         char[] vertex = {'A', 'B', 'C', 'D', 'E', 'F', 'G'};
         //创建邻接矩阵
